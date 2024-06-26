@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Home.css';
+import "./Home.css";
 
 const Home = () => {
     const goToVolleyballNews = (imageNumber) => {
@@ -17,6 +17,7 @@ const Home = () => {
                 </p>
             </div>
 
+            {/* Sección de Imágenes */}
             <div className="home-content">
                 <div className="home-image-grid-container">
                     <div className="home-image-grid">
@@ -59,8 +60,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <br />
 
+            <br />
             <div className="home-boton">
                 <Link to="/voley-pics">
                     <button className="home-button custom-font">Ver Resultados</button>
@@ -71,6 +72,8 @@ const Home = () => {
                 </Link>
             </div>
 
+            <br />
+
             <div className="home-2section">
                 <div className="home-container2">
                     <h2 className="custom-font">NUESTRA HISTORIA</h2>
@@ -80,18 +83,16 @@ const Home = () => {
                     <p>
                         Todo comenzó como un grupo de amigos, apasionados por el volleyball, jugamos todos los fines de semana, y un día el que sería el próximo propietario de LA COMBI SPORTS NEWS decidió empezar a compartir información de lo que más le apasionaba.
                     </p>
-                    <br />
                     <p>
                         Guiados por la visión de nuestro fundador, Javier, transformamos gradualmente nuestra página en mucho más que una colección de momentos destacados. Con ingenio y determinación, comenzamos a ofrecer noticias, análisis y debates sobre el emocionante mundo del volleyball. Desde entrevistas exclusivas con jugadores hasta coberturas en vivo de los eventos más importantes, nos esforzamos por ofrecer a nuestros seguidores contenido fresco y entretenimiento de calidad.
                     </p>
-                    <br />
                     <p>
                         A medida que crecía nuestra comunidad en TikTok, nos dimos cuenta del impacto que podíamos tener en la forma en que los aficionados experimentaban el deporte. Nos convertimos en una fuente confiable de información y entretenimiento, conectando a jugadores y fanáticos en una red apasionada que celebraba la emoción y la camaradería del volleyball. En La Combi Sports News, nuestra historia sigue evolucionando, y esperamos seguir siendo una parte integral del vibrante mundo del volleyball en línea.
                     </p>
                 </div>
 
                 <div className="Imagen Combi Sola">
-                    <img src="imagenes/LOGO COMBI.png" alt="Imagen 5" style={{ width: '300px', height: 'auto', marginTop: '0px', marginBottom: '20px' }} />
+                    <img src="imagenes/LOGO COMBI.png" alt="Imagen 5" style={{ width: '300px', height: 'auto', marginTop: '0px', marginBottom: '150px' }} />
                 </div>
             </div>
         </div>
