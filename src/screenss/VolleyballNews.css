@@ -1,9 +1,11 @@
 .volleyballnews-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     margin-bottom: 250px;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .volleyballnews-title {
@@ -19,8 +21,7 @@
     margin-bottom: 20px;
     text-align: center;
     max-width: 1200px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin: 0 auto;
 }
 
 .textweb {
@@ -29,11 +30,15 @@
 
 .volleyballnews-content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vn-image-grid-container {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .vn-image-grid {
@@ -48,7 +53,7 @@
 .news-item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     padding: 20px;
@@ -61,7 +66,6 @@
     width: 100%;
     height: auto;
     border-radius: 7px;
-
 }
 
 .news-item h2 {
